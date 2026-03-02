@@ -2,3 +2,10 @@
   height: 90vh;
   object-fit: cover;
 }
+
+.about-img {
+  max-height: 75vh;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
