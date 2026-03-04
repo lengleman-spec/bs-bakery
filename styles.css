@@ -1,10 +1,30 @@
+:root {
+  --bg-color: #a3b18a;
+}
+
+body,
+header,
+nav {
+  background-color: #a3b18a;
+  color: #fff;
+}
+
+.navbar-toggler {
+  border-color: black;
+}
+
 .hero {
   height: 80vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/pumpkin_scones.jpg");
+    url("img/cheesecake_rasp.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.hero h1,
+.hero p {
+  color: whitesmoke;
 }
 
 .carousel-img {
