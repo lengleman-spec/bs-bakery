@@ -9,8 +9,8 @@ nav {
   color: #fff;
 }
 
-.navbar-toggler {
-  border-color: black;
+#navbarNav .nav-link:hover {
+  background-color: #768d4d;
 }
 
 .hero {
