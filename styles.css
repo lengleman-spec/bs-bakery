@@ -51,6 +51,9 @@ nav {
   background-image: url(img/bread-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .about-img {
