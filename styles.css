@@ -49,13 +49,14 @@ nav {
 
 .about-img {
   max-height: 75vh;
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
   overflow: hidden;
   border-radius: 20px;
 }
 
 .customer-stats {
-  background-color: #768d4d;
-  width: 60%;
+  background: linear-gradient(135deg, #3f4f2a, #a3b18a);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  /* width: 40%; */
   border-radius: 20px;
 }
