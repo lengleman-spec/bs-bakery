@@ -6,7 +6,10 @@ body,
 header,
 nav {
   background-color: #a3b18a;
-  color: #fff;
+}
+
+.navbar .navbar-brand {
+  color: rgba(0, 0, 0, 0.75);
 }
 
 #navbarNav .nav-link:hover {
@@ -20,11 +23,23 @@ nav {
     url("img/cheesecake_rasp.jpg");
   background-size: cover;
   background-position: center;
+  color: #fff;
 }
 
 .hero h1,
 .hero p {
   color: whitesmoke;
+}
+
+.hero .btn-light {
+  background-color: var(--bg-color);
+  border: none;
+}
+
+.hero .btn-light:hover {
+  background-color: var(--bg-color);
+  border-color: var(--bg-color);
+  color: white;
 }
 
 .carousel-img {
