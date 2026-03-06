@@ -17,7 +17,7 @@ nav {
 }
 
 .hero {
-  height: 80vh;
+  height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/cheesecake_rasp.jpg");
@@ -54,8 +54,21 @@ nav {
   height: 80vh;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
+.about::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.about .container {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
 .about-img {
   max-height: 75vh;
   overflow: hidden;
