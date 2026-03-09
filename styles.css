@@ -43,11 +43,6 @@ nav {
   color: white;
 }
 
-.carousel-img {
-  height: 90vh;
-  object-fit: cover;
-}
-
 .stats {
   background: linear-gradient(135deg, #7bb661, #a3d39c);
 }
@@ -106,4 +101,15 @@ nav {
   max-height: 75vh;
   overflow: hidden;
   border-radius: 20px;
+}
+
+/* ===== Best Sellers ===== */
+.best-sellers {
+  background: linear-gradient(to bottom, #7bb661, #a3d39c);
+}
+
+.carousel-img {
+  height: 90vh;
+  max-height: 300px;
+  object-fit: cover;
 }

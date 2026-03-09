@@ -142,67 +142,100 @@
 
     <!-- Best Sellers -->
     <!-- Slideshow -->
-    <section class="slideshow">
-      <h2 class="best-sellers-header">Best Sellers</h2>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"></button>
+    <section class="best-sellers py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 best-sellers-header">Best Sellers</h2>
 
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"></button>
+        <div
+          id="bestSellersCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="card best-seller-card">
+                  <img
+                    src="img/orange_cardamom_cakes.jpg"
+                    class="card-img-top"
+                    alt="Orange Cardamom Cake" />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Orange Cardamom Cake</h5>
+                    <p class="card-text">
+                      Our most popular cake, perfect for celebrations!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card best-seller-card">
+                  <img
+                    src="img/cookies_xmas.jpg"
+                    class="card-img-top"
+                    alt="Holiday Cookies" />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Holiday Cookies</h5>
+                    <p class="card-text">
+                      Handcrafted cookies for every festive season.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card best-seller-card">
+                  <img
+                    src="img/cupcakes_choc.jpg"
+                    class="card-img-top"
+                    alt="Chocolate Cupcakes" />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Chocolate Cupcakes</h5>
+                    <p class="card-text">
+                      Rich and moist, topped with creamy frosting.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
           <button
+            class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"></button>
+            data-bs-target="#bestSellersCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#bestSellersCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+          <!-- Carousel Indicators -->
+          <div class="carousel-indicators mt-3">
+            <button
+              type="button"
+              data-bs-target="#bestSellersCarousel"
+              data-bs-slide-to="0"
+              class="active"></button>
+            <button
+              type="button"
+              data-bs-target="#bestSellersCarousel"
+              data-bs-slide-to="1"></button>
+            <button
+              type="button"
+              data-bs-target="#bestSellersCarousel"
+              data-bs-slide-to="2"></button>
+          </div>
         </div>
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/orange_cardamom_cakes.jpg"
-              class="d-block w-100 carousel-img"
-              alt="Cheesecake" />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="img/cookies_xmas.jpg"
-              class="d-block w-100 carousel-img"
-              alt="Cookies" />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="img/cupcakes_choc.jpg"
-              class="d-block w-100 carousel-img" />
-          </div>
-        </div>
-
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
       </div>
     </section>
 
