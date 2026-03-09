@@ -1,11 +1,12 @@
 :root {
-  --bg-color: #a3b18a;
+  --bg-color: #7bb661;
+  --primary-color: #768d4d;
 }
 
 body,
 header,
 nav {
-  background-color: #a3b18a;
+  background-color: var(--bg-color);
 }
 
 .navbar .navbar-brand {
@@ -47,6 +48,38 @@ nav {
   object-fit: cover;
 }
 
+.stats {
+  background: linear-gradient(135deg, #7bb661, #a3d39c);
+}
+
+.customer-stats {
+  background: linear-gradient(135deg, #3f4f2a, #a3b18a);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: white;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.customer-stats:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+.customer-stats h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.customer-stats i {
+  font-size: 3rem;
+}
+
+.icon-wrapper {
+  display: flex;
+}
+
 .about {
   background-image: url(img/bread-bg.jpg);
   background-position: center;
@@ -72,11 +105,5 @@ nav {
 .about-img {
   max-height: 75vh;
   overflow: hidden;
-  border-radius: 20px;
-}
-
-.customer-stats {
-  background: linear-gradient(135deg, #3f4f2a, #a3b18a);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
