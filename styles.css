@@ -174,3 +174,18 @@ nav {
 .discount-code {
   color: white;
 }
+
+/* Menu */
+.menu-section {
+  background: linear-gradient(to bottom, #7bb661, #a3d39c);
+}
+
+.menu-section .card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.menu-section .card-img-top {
+  border-radius: 12px;
+}
