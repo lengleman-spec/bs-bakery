@@ -43,8 +43,11 @@ nav {
   color: white;
 }
 
+/* Stats Section */
 .stats {
   background: linear-gradient(135deg, #7bb661, #a3d39c);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .customer-stats {
@@ -136,4 +139,18 @@ nav {
 
 .card.best-seller-card:hover img {
   transform: scale(1.08);
+}
+
+/* Discount Section */
+
+.discount-section {
+  background: url(img/coffee-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.discount-text {
+  font-size: 2.5rem;
+  color: white;
 }
