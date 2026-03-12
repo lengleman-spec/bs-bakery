@@ -1,6 +1,7 @@
 :root {
   --bg-color: #7bb661;
   --primary-color: #768d4d;
+  --light-color: #a3b18a;
 }
 
 body,
@@ -95,6 +96,10 @@ nav {
   background: rgba(0, 0, 0, 0.55);
 }
 
+.about-header {
+  font-size: 2.5rem;
+}
+
 .about .container {
   position: relative;
   z-index: 1;
@@ -109,6 +114,17 @@ nav {
 /* ===== Best Sellers ===== */
 .best-sellers {
   background: linear-gradient(to bottom, #7bb661, #a3d39c);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.best-sellers h2 {
+  font-size: 2.5rem;
+}
+
+.best-sellers .container {
+  flex: 1;
 }
 
 .card.best-seller-card {
