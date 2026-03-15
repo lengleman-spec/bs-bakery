@@ -180,7 +180,7 @@ nav {
 
 /* Menu */
 .menu-section {
-  background: linear-gradient(to bottom, #7bb661, #a3d39c);
+  background: linear-gradient(to bottom, #a3d39c, #a3b18a);
 }
 
 .menu-section h2 {
@@ -208,7 +208,7 @@ nav {
 }
 
 .menu-section .card-text {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #333;
 }
 
@@ -226,7 +226,7 @@ nav {
   border-radius: 50px;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition:
     background-colo 0.3s ease,
     transform 0.2s ease;
@@ -236,6 +236,10 @@ nav {
   background-color: var(--light-color);
   transform: scale(1.05);
   color: #333;
+}
+
+.fa-arrow-right {
+  margin-left: 0.5rem;
 }
 
 /* Testimonials Section */
