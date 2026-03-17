@@ -7,7 +7,7 @@
 body,
 header,
 nav {
-  background-color: var(--bg-color);
+  background-color: #d2b48c;
 }
 
 .navbar .navbar-brand {
@@ -15,7 +15,8 @@ nav {
 }
 
 #navbarNav .nav-link:hover {
-  background-color: #768d4d;
+  background-color: #7b4b3a;
+  color: white;
 }
 
 .hero {
@@ -34,14 +35,23 @@ nav {
 }
 
 .hero .btn-light {
-  background-color: var(--bg-color);
+  background-color: #ffd5b5;
   border: none;
 }
 
 .hero .btn-light:hover {
-  background-color: var(--bg-color);
-  border-color: var(--bg-color);
+  background-color: #a9746e;
   color: white;
+}
+
+.hero .btn-outline-light {
+  border: 1px solid #ffd5b5;
+}
+
+.hero .btn-outline-light:hover {
+  background-color: #a9746e;
+  color: white;
+  border: none;
 }
 
 /* Stats Section */
@@ -85,8 +95,11 @@ nav {
   background-image: url(img/bread-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
