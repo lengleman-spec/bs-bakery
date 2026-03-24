@@ -294,3 +294,51 @@ form {
 button.btn.submit-btn {
   background-color: white;
 }
+
+/* Socials */
+
+.socials {
+  height: 100%;
+  min-height: 200px;
+  width: 40%;
+  background-color: #a9746e;
+  border-radius: 15px;
+  margin: 3rem 0 3rem 3rem;
+}
+
+.socials h3 {
+  color: white;
+}
+
+.follow-us-section {
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+}
+
+.follow-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.socials {
+  flex: 1;
+  min-width: 150px;
+  background-color: #a9746e;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.icon-container i {
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.icon-container i:hover {
+  color: #ffd5b5;
+  transform: scale(1.2);
+}
