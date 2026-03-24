@@ -295,6 +295,40 @@ button.btn.submit-btn {
   background-color: white;
 }
 
+/* Gallery */
+
+/* Gallery images */
+/* Gallery grid container */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Each gallery item: 50% width (2 per row) */
+.gallery-item {
+  flex: 0 0 50%; /* 2 per row */
+  padding: 0.5rem;
+  box-sizing: border-box;
+  text-align: center; /* centers the caption */
+}
+
+/* Images: fixed height, cover, same width */
+.gallery-item img {
+  width: 100%;
+  height: 200px; /* adjust as needed */
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Caption text below image */
+.gallery-item .caption {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+}
 /* Socials */
 
 .socials {
@@ -311,9 +345,6 @@ button.btn.submit-btn {
 }
 
 .follow-us-section {
-  gap: 1rem;
-  flex-wrap: wrap;
-  padding: 0 3rem;
   background-color: #fff8f0;
 }
 
@@ -321,25 +352,4 @@ button.btn.submit-btn {
   width: 300px;
   height: auto;
   border-radius: 10px;
-}
-
-.socials {
-  flex: 1;
-  min-width: 150px;
-  background-color: #a9746e;
-  color: white;
-  border-radius: 10px;
-  padding: 1rem;
-}
-
-.icon-container i {
-  cursor: pointer;
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease;
-}
-
-.icon-container i:hover {
-  color: #ffd5b5;
-  transform: scale(1.2);
 }
